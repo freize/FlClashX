@@ -89,7 +89,7 @@ class MetainfoWidget extends ConsumerWidget {
                       children: [
                         Expanded(
                           child: Text(
-                            currentProfile.label ?? 'Профиль',
+                            currentProfile.label ?? appLocalizations.profile,
                             style: theme.textTheme.headlineSmall,
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
